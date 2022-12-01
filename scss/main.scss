@@ -1,7 +1,28 @@
-@import './utils/variables';
-@import './utils/visually-hidden';
-
 @import './base/base';
 @import './base/reset';
 
+@import './components/backdrop';
+@import './components/button';
+@import './components/clients-examples';
+@import './components/contacts';
 @import './components/container';
+@import './components/features';
+@import './components/filter-portfolio';
+@import './components/header-icons';
+@import './components/logo';
+@import './components/main-hero';
+@import './components/modal';
+@import './components/our-work';
+@import './components/overlay';
+@import './components/social-icon';
+@import './components/sphere';
+@import './components/subscribes';
+@import './components/team';
+@import './components/-section.scss';
+
+@import './layout/footer';
+@import './layout/header';
+@import './layout/navigation';
+
+@import './utils/variables';
+@import './utils/visually-hidden';

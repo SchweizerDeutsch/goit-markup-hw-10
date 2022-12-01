@@ -1,0 +1,29 @@
+.footer-subscribe-to-us {
+  display: block;
+}
+.subscribe-to-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.footer-form-subscribe {
+  width: 358px;
+  height: 50px;
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: none;
+  color: var(--white-color);
+  padding-left: 15px;
+  margin-right: 12px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-subscribe:focus {
+  border: 1px solid var(--accent-color);
+}
